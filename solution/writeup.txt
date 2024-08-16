@@ -1,0 +1,40 @@
+
+SMB
+- use smbclient to loginto smb Share to upload
+  and download files to the target
+- download files on Share
+
+HTTP Server
+- upload php reverse shell to /deaddrop via smb
+- nc lvnp <port> on local to catch the reverse shell
+- create exploit using pwntools to exploit kill_bang_marry.exe
+  found on smb Share
+- upload python exploit to exploit kill_bang_marry.exe
+  running on target localhost port 4321
+
+
+DrKrieger
+- git log | cat
+- git log shows ssh user mitsuko
+- mitsuko password is guest found
+  by finding the secret webpage via
+  the robots.txt 
+
+
+mitsuko
+- can run base64 as root
+- can use this to read the /etc/shadow file
+- use john the ripper to crack the password hashes
+  this finds the password for Pam
+
+Pam
+- another GTFObin
+- Pam can run find as root
+- use this to get a root shell
+
+
+Root
+- find the keys and decrypt the nuclear_launch_codes.enc
+  file by reversing the encrypt.sh
+- decrypt the agent_dossier.enc Vigenere Cipher with "BABOU" as key
+

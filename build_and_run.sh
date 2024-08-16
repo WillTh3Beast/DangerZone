@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo docker build -t my_ctf_image . > build.log
-sudo docker run -d -p 80:80 -p 22:22 -p 445:445 --name dangerzone my_ctf_image > run.log
+docker build -t my_ctf_image . > build.log
+docker run -d -p 80:80 -p 22:22 -p 445:445 --name dangerzone my_ctf_image > run.log
 
 echo "check if the container started fine"
 
-sudo docker ps -a
+docker ps -a
 
 echo ""
 echo "Docker Container IP address"
