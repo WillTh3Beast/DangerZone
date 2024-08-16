@@ -71,7 +71,7 @@ RUN mkdir -p /var/www/html/deaddrop \
 # Change ownership of binary
 COPY ./dangerzone/binary/ /var/www/html/deaddrop
 COPY ./dangerzone/DrKrieger/ /home/DrKrieger/
-COPY ./dangerzone/DrKrieger/lab/.git /home/DrKrieger/lab/.git
+COPY ./dangerzone/DrKrieger/lab/.git_backup /home/DrKrieger/lab/.git
 
 RUN chown -R DrKrieger:DrKrieger /home/DrKrieger/
 RUN chown -R DrKrieger:DrKrieger /home/DrKrieger/lab/
