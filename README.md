@@ -15,7 +15,7 @@ $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-## RUN
+## Run
 
 Run the following to start the docker container. 
 If the docker fails to start logs can be found in build.log and run.log. 
