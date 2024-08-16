@@ -19,6 +19,18 @@ Now it is quite possible the files will be encrypted, and if they are, they will
 
 The two files each have a flag in them. 
 
+# Setup Instructions
+I assume you will be running this box on the linux VM your normally use for hacking. 
+In my case I run a Kali Linux VM using VMware. 
+
+If you don't have a Linux VM I reccommend you set one up on either VMware or VirtualBox. 
+There are plenty of tutorials online that can help you set that up. 
+
+Kali Linux and Parrot OS are good for hacking boxes on sites like TryHackMe and HackTheBox
+- Kali Linux VM : https://www.kali.org/get-kali/#kali-platforms
+- Parrot OS : https://parrotsec.org/download/
+
+
 ## Dependencies
 - Docker
 
@@ -28,17 +40,33 @@ $ sudo apt-get update
 $ sudo apt-get install docker.io
 ```
 
+## Download The Git Repo
+```
+$ git clone <url for this repo>
+```
+CD into the repo
+```
+$ cd DangerZone
+```
+Make sure the build_and_run.sh script is executable
+```
+$ chmod +x build_and_run.sh 
+```
+
 ## Run
+To start the challenge all you should have to do is run the build_and_run.sh script.
+On my machine I have to run the script is root for it to work. 
 
 Run the following to start the docker container. 
 If the docker fails to start logs can be found in build.log and run.log. 
 Also "docker ps -a" and "docker logs <ID>" can be useful for debugging. 
 ```
-$ ./build_and_run.sh
+$ sudo ./build_and_run.sh
 ```
 
 Assuming docker is installed the build_and_run.sh script should start the container
 and you should be good to start hacking it. 
+
 
 ## To get you started
 
@@ -48,6 +76,20 @@ running the following nmap command.
 $ nmap -sC 127.0.0.1 -p 22,80,445
 ```
 
+## Clean up
+
+When you are done hacking and want to shut down the container you can do the following.
+
+```
+$ sudo docker ps -a     # to view docker containers
+$ sudo docker stop <ID> # to stop the container
+$ sudo docker rm <ID>   # to delete the container
+```
+
+## Solution
+This repo comes with a writeup and my solution code in the solution directory. 
+If you get super stuck and want to see how I solved the box you can see
+see what I did. 
 
 # Further Learning Resources 
 
