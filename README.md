@@ -69,6 +69,9 @@ $ nmap -sC 127.0.0.1 -p 22,80,445
 - pwntools        : https://pypi.org/project/pwntools/
 - winpeas/linpeas : https://github.com/peass-ng/PEASS-ng/releases/tag/20240811-aea595a1
 - kali linux      : https://www.kali.org/get-kali/#kali-platforms
+- CyberChef       : https://gchq.github.io/CyberChef/
+- Reverse Shell   : https://www.revshells.com/
+- GTFObins        : https://gtfobins.github.io/
 
 ## Other cool resources
 - HackTricks : https://book.hacktricks.xyz/
