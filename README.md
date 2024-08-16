@@ -25,7 +25,7 @@ The two files each have a flag in them.
 You should look up how to set up docker on your machine, but here is the general command on linux
 ```
 $ sudo apt-get update
-$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+$ sudo apt-get install docker.io
 ```
 
 ## Run
