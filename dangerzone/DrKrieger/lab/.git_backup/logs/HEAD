@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 ad892bd70fa6a8bd79dbba6f0f3fdd8231e2147f root <root@kali> 1723758014 -0500	commit (initial): First commit
+ad892bd70fa6a8bd79dbba6f0f3fdd8231e2147f 846fc3165d814ceaa2bef339b36abdaba0f0085b root <root@kali> 1723758089 -0500	commit: Added new mitsuko user to ssh guest account
+846fc3165d814ceaa2bef339b36abdaba0f0085b 67add99854f4fcbecf01fba744a298e14054dd80 root <root@kali> 1723758403 -0500	commit: Finished todo list
