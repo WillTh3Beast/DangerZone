@@ -17,7 +17,7 @@ On the target there are two files we want you to grab.
 
 Now it is quite possible the files will be encrypted, and if they are, they will end with the .enc file extension. 
 
-The two files have each have a flag in them. 
+The two files each have a flag in them. 
 
 ## Dependencies
 - Docker
