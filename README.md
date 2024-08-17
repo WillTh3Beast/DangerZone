@@ -92,9 +92,7 @@ $ sudo docker rm <ID>   # to delete the container
 ```
 
 ## Solution
-This repo comes with a writeup and my solution code in the solution directory. 
-If you get super stuck and want to see how I solved the box you can see
-see what I did. 
+This repo comes with a writeup and my solution code in the solution directory.  
 
 # Further Learning Resources 
 
