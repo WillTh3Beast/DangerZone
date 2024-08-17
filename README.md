@@ -94,7 +94,7 @@ $ sudo docker rm <ID>   # to delete the container
 ## Solution
 This repo comes with a writeup and my solution code in the solution directory. 
 
-The writeup.txt is a more concise writeup and the pdf writeup goes through
+The writeup.txt is concise writeup and the pdf writeup goes through
 the whole ctf challenge with pictures. 
 
 # Further Learning Resources 
