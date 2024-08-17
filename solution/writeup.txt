@@ -37,4 +37,5 @@ Root
 - find the keys and decrypt the nuclear_launch_codes.enc
   file by reversing the encrypt.sh
 - decrypt the agent_dossier.enc Vigenere Cipher with "BABOU" as key
+  BABOU is found by cat vigenere_password.txt | base64 -d
 
