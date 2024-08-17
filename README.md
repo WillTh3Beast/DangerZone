@@ -4,7 +4,7 @@ An Archer themed CTF challenge
 Difficulty: Medium
 
 This CTF challenge focuses on basic hacking techniques. 
-If you can handle challenges on sites like TryHackMe, HackTheBox, and picoCTF you this challenge is for you!
+If you can handle challenges on sites like TryHackMe, HackTheBox, and picoCTF then this challenge is for you!
 
 
 # MISSION
@@ -57,15 +57,16 @@ $ chmod +x build_and_run.sh
 To start the challenge all you should have to do is run the build_and_run.sh script.
 On my machine I have to run the script is root for it to work. 
 
-Run the following to start the docker container. 
-If the docker fails to start logs can be found in build.log and run.log. 
-Also "docker ps -a" and "docker logs <ID>" can be useful for debugging. 
+
 ```
 $ sudo ./build_and_run.sh
 ```
 
-Assuming docker is installed the build_and_run.sh script should start the container
-and you should be good to start hacking it. 
+If the docker fails to start logs can be found in build.log and run.log. 
+Also "docker ps -a" and "docker logs <ID>" can be useful for debugging. 
+
+If the build_and_run.sh script was successful you should see a docker container
+up and running. 
 
 
 ## To get you started
