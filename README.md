@@ -65,10 +65,11 @@ $ sudo ./build_and_run.sh
 ```
 
 If the docker fails to start logs can be found in build.log and run.log. 
+
 Also "docker ps -a" and "docker logs <ID>" can be useful for debugging. 
 
 If the build_and_run.sh script was successful you should see a docker container
-up and running. 
+up and running in the output of the build_and_run.sh script. 
 
 
 ## To get you started
