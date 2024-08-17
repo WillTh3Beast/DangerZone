@@ -56,7 +56,8 @@ $ chmod +x build_and_run.sh
 
 ## Run
 To start the challenge all you should have to do is run the build_and_run.sh script.
-On my machine I have to run the script is root for it to work. 
+
+On my machine I have to run this script as root for it to work. 
 
 
 ```
