@@ -21,7 +21,8 @@ Now it is quite possible the files will be encrypted, and if they are, they will
 The two files each have a flag in them. 
 
 # Setup Instructions
-I assume you will be running this box on the linux VM your normally use for hacking. 
+I assume you will be running this box on the linux VM you normally use for hacking. 
+
 In my case I run a Kali Linux VM using VMware. 
 
 If you don't have a Linux VM I reccommend you set one up on either VMware or VirtualBox. 
