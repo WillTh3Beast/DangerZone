@@ -56,7 +56,8 @@ $ chmod +x build_and_run.sh
 
 ## Run
 To start the challenge all you should have to do is run the build_and_run.sh script.
-On my machine I have to run the script is root for it to work. 
+
+On my machine I have to run this script as root for it to work. 
 
 
 ```
@@ -64,10 +65,11 @@ $ sudo ./build_and_run.sh
 ```
 
 If the docker fails to start logs can be found in build.log and run.log. 
+
 Also "docker ps -a" and "docker logs <ID>" can be useful for debugging. 
 
 If the build_and_run.sh script was successful you should see a docker container
-up and running. 
+up and running in the output of the build_and_run.sh script. 
 
 
 ## To get you started
