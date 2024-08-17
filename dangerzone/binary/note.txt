@@ -5,7 +5,7 @@ I finished the initial release of kill_bang_marry.exe!
 The program still needs to go through testing to ensure it is not vulnerable
 to attackers. For this reason the program is currently running
 locally on localhost port 4321 so you will have to log into the
-computer at the office to try it out who wants to kill, band, and/or marry you. 
+computer at the office to try it out. Who wants to kill, bang, and/or marry you? 
 
 I have also put the code here so you can try the program out at home. 
 
